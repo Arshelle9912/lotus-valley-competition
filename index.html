@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <center>
+            <marquee><h1>The Parallex Engine</h1></marquee>
+        </center>
+        <h2>Choose between-:</h2>
+        <button onclick="sec1()" id="mainbutton1" class="button">Main page</button>
+        <button onclick="sec2()" id="mainbutton2" class="button">Quantitative Analysis</button>
+        
+    </div>
+    <div id="main">
+        <img src="https://media.discordapp.net/attachments/864125253525438504/864496113355456542/spain_but_typed.png?width=1089&height=612" alt="Logo" height="670vh" width="100%">
+    </div>
+    <div id="quantative">
+        <button onclick="sec3()" class="button">Tata Motors</button>
+        <button onclick="sec4()" class="button">Yes Bank</button>
+        <button onclick="sec5()" class="button">Maruti Suzuki</button>
+        <!-- tata motors -->
+        
+        <div id="tata" class="container">
+            
+            <div class="image1">
+                <h2>About Tata Motors</h2>
+                <img src="https://media.discordapp.net/attachments/864125253525438504/866534098943213568/unknown.png?width=834&height=613" alt="">
+                <p><i></i></p>
+            </div>
+    
+    
+            <div class="image2">
+                <h2>Strengths</h2>
+                <img src="" alt="">
+                <p><i>It has been earning stabilized profit. Tata has a good management policy. It can be noticed when they acquire new companies. One study showed that Tata will only purchase those companies which have the same management system.</i></p>
+            </div>
+    
+    
+            <div class="image3">
+                <h2>Weaknesses</h2>
+                <img src="" alt="">
+                <p><i>The automobile industry is a very competitive industry. Every company in this industry remain competitive as most of the automobile companies are very old and experienced in this business. They offer a new model and tech-savvy cars.
+                </i></p>
+            </div>
+    
+    
+            <div class="image4">
+                <h2>Oppurtunities</h2>
+                <img src="" alt="">
+                <p><i>Modernizing the world. Citizens are heavily reliant on the transport facilities. It’ll boost motor vehicle sales. Seeing that Tata still has the potential to reach another international market, it has a great opportunity to grow.
+                </i></p>
+            </div>
+    
+    
+            <div class="image5">
+                <h2>Threats</h2>
+                <img src="" alt="">
+                <p><i>Many countries develop carbon emissions laws. If India introduces this kind of law, TATA may need to produce more carbon-efficient cars that may need additional investment.
+                </i></p>
+            </div>
+        </div>
+
+        <!-- yes bank -->
+        
+        <div id="yes" class="container">
+            
+            <div class="image1">
+                <h2>About Yes bank</h2>
+                <img src="https://media.discordapp.net/attachments/864125253525438504/867103078959022117/unknown.png?width=1440&height=466" alt="">
+                <p><i></i></p>
+            </div>
+    
+    
+            <div class="image2">
+                <h2>Strengths</h2>
+                <img src="" alt="">
+                <p><i></i></p>
+            </div>
+    
+    
+            <div class="image3">
+                <h2>Weaknesses</h2>
+                <img src="" alt="">
+                <p><i>High Interest Payments Compared to Earning
+                </i></p>
+            </div>
+    
+    
+            <div class="image4">
+                <h2>Oppurtunities</h2>
+                <img src="" alt="">
+                <p><i>Stock with Low PE (PE < = 10)</i></p>
+            </div>
+    
+    
+            <div class="image5">
+                <h2>Threats</h2>
+                <img src="" alt="">
+                <p><i>Profit to Loss Companies                </i></p>
+            </div>
+        </div>
+        <!-- maruti suzuki -->
+        
+        <div id="maruti" class="container">
+            <div class="image1">
+                <h2>About Maruti Suzuki</h2>
+                <img src="https://media.discordapp.net/attachments/864125253525438504/867103197024878612/unknown.png?width=1440&height=478" alt="">
+                <p><i></i></p>
+            </div>
+    
+    
+            <div class="image2">
+                <h2>Strengths</h2>
+                <img src="" alt="">
+                <p><i>Maruti Suzuki is India’s largest passenger car manufacturer with a market share of around 45 percent.</i></p>
+            </div>
+    
+    
+            <div class="image3">
+                <h2>Weaknesses</h2>
+                <img src="" alt="">
+                <p><i>Weak interior quality in cars compared to high-quality players such as Hyundai and other recent foreign players such as Volkswagen, Kia etc.</i></p>
+            </div>
+    
+    
+            <div class="image4">
+                <h2>Oppurtunities</h2>
+                <img src="" alt="">
+                <p><i>Maruti Suzuki will conduct R&D on electric cars for a much better fuel replacement
+                </i></p>
+            </div>
+    
+    
+            <div class="image5">
+                <h2>Threats</h2>
+                <img src="" alt="">
+                <p><i>Maruti Suzuki recently experienced a fall in market share due to the increasing demand for cars of foreign players.</i></p>
+            </div>
+        </div>
+    </div>
+    
+
+    </div>
+    <script>
+        var a=document.getElementById('quantative')
+        var c=document.getElementById('main')
+        var d=document.getElementById('tata')
+        var e=document.getElementById('yes')
+        var f=document.getElementById('maruti')
+        function sec1(){
+            c.style.display="block"
+            a.style.display="none"
+        }
+        function sec2(){
+            c.style.display="none"
+            a.style.display="block"
+        }
+        function sec3(){
+            d.style.display="block"
+            e.style.display="none"
+            f.style.display="none"
+        }
+        function sec4(){
+            d.style.display="none"
+            e.style.display="block"
+            f.style.display="none"
+        }
+        function sec5(){
+            d.style.display="none"
+            e.style.display="none"
+            f.style.display="block"
+        }
+
+        
+    </script>
+</body>
+</html>

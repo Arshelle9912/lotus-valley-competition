@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+}
+#header{
+    background-color: black;
+    color: white;
+}
+.button{
+    width: 33%;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+#main{
+    background-color: rgb(64,171,183);
+    color: white;
+}
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+#quantative{
+    display: none;
+}
+.sec3{
+    display: none;
+}
+#mainbutton1{
+    width: 49%;
+}
+#mainbutton2{
+    width: 49%;
+}
+#yes{
+    display: none;
+}
+#maruti{
+    display: none;
+}
+.image1{
+    background-color: rgb(251,94,82);
+    color: white;
+    transition-duration: 0.5s;
+    width: 98%;
+    padding: 15px;
+    height: 20vh;
+}
+.image1 img{
+    height: 200px;
+    width: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.image1 p{
+    font-size: 20px;
+}
+/* .image1:hover{
+    width: 40%;
+}
+.image1:hover p{
+    display: block;
+}
+.image1:hover img{
+    display: block;
+} */
+
+.image2{
+    background-color: rgb(119,125,165);
+    color: white;
+    box-shadow: 0px -5px 100px 5px black;
+    transition-duration: 0.5s;
+    width: 98%;
+    padding: 15px;
+    height: 20vh
+}
+.image2 img{
+    height: 200px;
+    width: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.image2 p{
+    font-size: 20px;
+}
+/* .image2:hover{
+    width: 40%;
+}
+.image2:hover p{
+    display: block;
+}
+.image2:hover img{
+    display: block;
+} */
+
+.image3{
+    background-color: rgb(133,78,81);
+    color: white;
+    box-shadow: 0px -5px 100px 5px black;
+    transition-duration: 0.5s;
+    width: 98%;
+    padding: 15px;
+    height: 20vh;
+}
+.image3 img{
+    height: 200px;
+    width: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.image3 p{
+    font-size: 20px;
+}
+/* .image3:hover{
+    width: 40%;
+}
+.image3:hover p{
+    display: block;
+}
+.image3:hover img{
+    display: block;
+} */
+
+.image4{
+    background-color: rgb(146,200,167);
+    color: white;
+    box-shadow: 0px -5px 100px 5px black;
+    transition-duration: 0.5s;
+    width: 98%;
+    padding: 15px;
+    height: 20vh;
+}
+.image4 p{
+    font-size: 20px;
+}
+.image4 img{
+    height: 200px;
+    width: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.image5{
+    background-color: rgb(133,78,124);
+    color: white;
+    box-shadow: 0px -5px 100px 5px black;
+    transition-duration: 0.5s;
+    width: 98%;
+    padding: 15px;
+    height: 20vh;
+}
+.image5 img{
+    display: none;
+    height: 200px;
+    width: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.image5 p{
+    font-size: 20px;
+}
+
